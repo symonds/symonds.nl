@@ -7,15 +7,14 @@ permalink:        pretty
 
 
 # Setup
-title:            Symonds
+title:            
 tagline:          'Random Tech Blog'
-description:      ''
+description:      'symonds.io'
 url:              http://symonds.io
 baseurl:          /
 
 author:
   name:           'Matthew Symonds'
-  twitter:        'symondsio'
   github:         'symonds'
 
 paginate:         5

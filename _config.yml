@@ -1,3 +1,28 @@
-theme: jekyll-theme-minimal
-title: symonds.io
-paginate: 5
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+
+
+# Setup
+title:            Symonds
+tagline:          'Random Tech Blog'
+description:      ''
+url:              http://symonds.io
+baseurl:          /
+
+author:
+  name:           'Matthew Symonds'
+  twitter:        'symondsio'
+  github:         'symonds'
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+gems: [jekyll-paginate]
+
+github:
+  repo:           https://github.com/symonds/symonds.github.io

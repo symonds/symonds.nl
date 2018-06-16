@@ -11,7 +11,7 @@ title:            'Symonds.io'
 tagline:          'Blog'
 description:      ''
 url:              http://symonds.io
-baseurl:          /
+baseurl:          ''
 
 author:
   name:           'Matthew Symonds'

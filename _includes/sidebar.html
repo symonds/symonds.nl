@@ -2,7 +2,7 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
-        <a href="{{ "/" | relative_url }}">
+        <a href="{{ site.url }}">
           {{ site.title }}
         </a>
       </h1>
@@ -10,7 +10,7 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ "/" | relative_url }}">Home</a>
+      <a class="sidebar-nav-item{% if page.url == '/' %} active{% endif %}" href="{{ site.url }}">Home</a>
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -27,14 +27,21 @@
       {% endfor %}
     </nav>
 
-    <div class="sidebar-social">
-      {% if site.author.github %}
-        {% include icon-github.html username=site.author.github %}
-      {% endif %}
+    <div class="social-icons">
+      <!-- <a href="https://twitter.com/{{ site.social.twitter }}"
+        class="social fa fa-twitter" title="Twitter" target="_blank"></a>
+      -->
+      <!-- <a href="https://linkedin.com/in/{{ site.social.linkedin }}"
+        class="social fa fa-linkedin-square" title="Linkedin" target="_blank"></a>
+      -->
+      <a href="https://github.com/{{ site.social.github }}"
+        class="social fa fa-github" title="Github" target="_blank"></a>
 
-      {% if site.author.twitter %}
-        {% include icon-twitter.html username=site.author.twitter %}
-      {% endif %}
+      <!--<a href="mailto:{{ site.author.email }}" class="social fa fa-envelope"
+        title="Email"></a>
+      -->
+      <a href="/feed.xml" class="social fa fa-rss" title="RSS feed"
+        target="_blank"></a>
     </div>
   </div>
 </div>

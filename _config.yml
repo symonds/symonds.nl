@@ -10,8 +10,7 @@ permalink:        pretty
 title:            'Symonds.io'
 tagline:          'Blog'
 description:      ''
-url:              http://symonds.io
-baseurl:          ''
+url:              http://www.symonds.io
 
 author:
   name:           'Matthew Symonds'

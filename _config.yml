@@ -1,21 +1,20 @@
-title:            'Symonds.io'
-tagline:          'Blog'
-description:      ''
-url:              https://symonds.io
-baseurl:          /
+title: "Symonds.io"
+tagline: "Blog"
+description: ""
+url: https://symonds.io
+baseurl: /
 
 # Build settings
-markdown:         kramdown
-highlighter:      rouge
-permalink:        pretty
-paginate:         5
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
 
 author:
-  name:           'Matthew Symonds'
-  github:         'symonds'
+  name: "Matthew Symonds"
+  github: "symonds"
 
 social:
-  github:         symonds
-  disqus:         symonds
+  github: symonds
 
 google_analytics:
